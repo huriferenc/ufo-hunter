@@ -1,0 +1,31 @@
+@font-face {
+  font-family: RetroFont;
+  src: url('./PressStart2P-Regular.ttf') format('truetype');
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: 'RetroFont', Arial, sans-serif;
+}
+
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+body {
+  background-image: url('./space.jpg');
+  overflow: hidden;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: white;
+  font-size: 3vh;
+  font-weight: bold;
+}
